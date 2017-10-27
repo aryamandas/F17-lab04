@@ -10,11 +10,11 @@ import java.awt.geom.Line2D;  // single lines
 import java.awt.geom.Rectangle2D; 
 
 /**
-   A component that draws a Picture by Phill Conrad
+   A component that draws a Picture by Andrew Thompson
    
    @author Phill Conrad (original drawing)
-   @author @@@ ADD YOUR NAME (fixed the snowmans's head)
-   @version for UCSB CS56, W16
+   @author @@@ Andrew Thompson (fixed the snowmans's head)
+   @version for UCSB CS56, F17
 */
 
 // Your class should "extend JComponent

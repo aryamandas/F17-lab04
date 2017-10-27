@@ -4,7 +4,7 @@ import java.awt.Shape;
 import java.awt.geom.Rectangle2D;
 
 /**
-   A Pizza
+   A vector drawing of a pepperoni pizza that implements the Shape interface, and so can be drawn, as well as rotated, scaled, etc.
       
    @author Andrew Thompson 
    @version for CS56, F17, UCSB
