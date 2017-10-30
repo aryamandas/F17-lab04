@@ -116,7 +116,7 @@ public class AllMyDrawings
     	g2.draw(hw1);
     	g2.setColor(new Color(0x8F00FF)); 
 
-		// Rotate the second house 45 degrees around its center.
+		//	 Rotate the second house 45 degrees around its center.
     	Shape hw3 = ShapeTransforms.rotatedCopyOf(hw2, Math.PI/4.0);
 
     	g2.draw(hw3);

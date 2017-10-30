@@ -11,7 +11,7 @@ import edu.ucsb.cs56.drawings.utilities.GeneralPathWrapper;
  * This provides an example of how you can start with the coordinates
  * of a hard coded object, and end up with an object that can be
  * drawn anywhere, with any width or height.   
- *     
+ *    
  * @author Phill Conrad 
  * @version for CS56, W16, UCSB
  *  
@@ -70,14 +70,12 @@ public class CoffeeCup extends GeneralPathWrapper implements Shape
         
         Shape s = ShapeTransforms.translatedCopyOf(wholeCup, -ORIG_ULX + x, -ORIG_ULY + y);
 
-        // scale to correct height and width
-        s =  ShapeTransforms.scaledCopyOf(s,
-        width/ORIG_WIDTH,
-        height/ORIG_HEIGHT) ;
+    	// scale to correct height and width
+        s =  ShapeTransforms.scaledCopyOf(s, width/ORIG_WIDTH, height/ORIG_HEIGHT) ;
 
     	// Use the GeneralPath constructor that takes a shape and returns
     	// it as a general path to set our instance variable cup
-            
+        
         this.set(new GeneralPath(s));
         
     }

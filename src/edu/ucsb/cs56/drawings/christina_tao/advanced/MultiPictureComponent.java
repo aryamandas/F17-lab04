@@ -9,7 +9,7 @@ import javax.swing.JComponent;
  * 
  * @author Phill Conrad (original drawing)
  * @version CS56, W16, UCSB
-*/
+ */
 
 
 public class MultiPictureComponent extends JComponent
@@ -44,6 +44,6 @@ public class MultiPictureComponent extends JComponent
             break;
             default:
             throw new IllegalArgumentException("Unknown value for whichPicture in MultiPictureComponent" + this.whichPicture);
-    	} // switch
+        } // switch
     } // paintComponent
 }
