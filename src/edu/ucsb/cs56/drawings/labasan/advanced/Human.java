@@ -24,8 +24,8 @@ public class Human extends GeneralPathWrapper implements Shape{
        
        @param x x coord of center of body
        @param y y coord of upper left corner of body
-       @param weight weight of the house
-       @param height of house (including first story and second story)
+       @param weight weight of the human
+       @param height of the human 
     */
     public Human(double x, double y, double weight, double height)
     {

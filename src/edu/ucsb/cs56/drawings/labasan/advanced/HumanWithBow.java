@@ -12,7 +12,9 @@ import java.awt.geom.Line2D;
 */
 public class HumanWithBow extends Human implements Shape
 {
-	// constructor for the object class HumanWithBow
+    /**
+     * Constructor for a human with a bowtie
+     */
     public HumanWithBow(double x, double y, double weight, double height)
     {
 	// construct the basic house shell
