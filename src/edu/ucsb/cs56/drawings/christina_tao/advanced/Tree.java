@@ -19,7 +19,7 @@ import edu.ucsb.cs56.drawings.utilities.GeneralPathWrapper;
 public class Tree extends GeneralPathWrapper implements Shape {
 
 	/**
-	 * Constructor for objects of class Tree
+	 * Constructor for objects of the class Tree
 	 *
 	 * @param x x coord of lower left corner of tree
 	 * @param y y coord of lower left corner of tree

@@ -6,6 +6,15 @@ import java.awt.geom.Rectangle2D;
 
 import edu.ucsb.cs56.drawings.utilities.ShapeTransforms;
 
+/**
+ * A vector drawing of a Christmas tree that extends Tree
+ * and implements the Shape interface, and so can be drawn,
+ * as well as rotated, scaled, etc.
+ *
+ * @author Christina Tao
+ * @version for CS56, F17, UCSB
+*/
+
 public class ChristmasTree extends Tree implements Shape
 {
     /**
