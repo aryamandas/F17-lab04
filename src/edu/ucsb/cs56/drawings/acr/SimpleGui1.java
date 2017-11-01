@@ -7,8 +7,8 @@ import javax.swing.*;
     
     @author Head First Java, 2nd Edition p. 355
     @author P. Conrad (who only typed it in and added the Javadoc comments)
-    @author TODO: Add additional author here
-    @version CS56, Spring 2013, UCSB
+    @author Arielle Robles (who changed the button text and color)
+    @version CS56, Fall 2017, UCSB
 */
 
 public class SimpleGui1 {
@@ -22,7 +22,7 @@ public class SimpleGui1 {
 	
 	JButton button = new JButton("Click me and you'll pass CS56") ;
 	
-	java.awt.Color myColor = new java.awt.Color(204,255,153);   // R, G, B values.
+	java.awt.Color myColor = new java.awt.Color(237, 216, 255);   // R, G, B values.
 	button.setBackground(myColor);
 	button.setOpaque(true);
 	
